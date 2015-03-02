@@ -1,4 +1,5 @@
-# Muon Jet Analysis Samples - LHE - 13 TeV
+# Muon Jet Analysis Samples - 13 TeV
+# How to make LHE files
 
 # Instructions
 
