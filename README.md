@@ -1,4 +1,4 @@
-# Muon Jet Analysis Samples - 13 TeV
+# Muon Jet Analysis Samples
 # How to generate LHE files
 
 ## 1. Set up new process with Madgraph
