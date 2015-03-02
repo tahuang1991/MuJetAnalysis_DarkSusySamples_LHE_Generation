@@ -5,7 +5,7 @@
 
 ### 1.1. Download archive with pre-compiled Madgraph from github
 
-`wget https://github.com/cms-tamu/MuJetAnalysis_Samples_13TeV_01/blob/master/MG_ME_V4.5.2_CompiledBackup/MG_ME_V4.5.2_CompiledBackup.tar.gz?raw=true -O MG_ME_V4.5.2_CompiledBackup.tar.gz`
+`wget https://github.com/cms-tamu/MuJetAnalysis_DarkSusySamples_LHE_Generation/blob/master/MG_ME_V4.5.2_CompiledBackup/MG_ME_V4.5.2_CompiledBackup.tar.gz?raw=true -O MG_ME_V4.5.2_CompiledBackup.tar.gz`
 
 ### 1.2. Unzip and rename it to MG_ME_V4.5.2
 
