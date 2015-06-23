@@ -310,3 +310,9 @@ Just search for codes `3000013` and `-3000013` in event file `DarkSUSY_mH_125_mG
 A simple way to do this is in vi:
 `vi DarkSUSY_mH_125_mGammaD_2000_13TeV-madgraph452_bridge224_events80k.lhe`
 `:%s/3000013 /13 /g`
+
+### 5.3 Adjust quantum numbers
+
+After all desired lhe files have been generated, run the following command in the terminal to update the custom particle quantum numbers:
+
+`sed -i 's/Block MASS      #  Mass spectrum (kinematic masses)/BLOCK QNUMBERS 3000001 # nD\n1 0 # 3 times electric charge\n2 1 # number of spin states (2S+1)\n3 1 # colour rep (1: singlet, 3: triplet, 8: octet\n4 0 # Particle\/Antiparticle distinction (0=own anti)\nBLOCK QNUMBERS 3000002 # n2\n1 0 # 3 times electric charge\n2 1 # number of spin states (2S+1)\n3 1 # colour rep (1: singlet, 3: triplet, 8: octet)\n4 0 # Particle\/Antiparticle disinction (0=own anti)\nBLOCK QNUMBERS 3000022 # gammaD\n1 0 # 3 times electric charge\n2 3 # number of spin states (2S+1)\n3 1 # colour rep (1: singlet, 3: triplet, 8: octet)\n4 0 # Particle\/Antiparticle distinction (0=own anti)\nBlock MASS      #  Mass spectrum (kinematic masses)/g' *.lhe`
