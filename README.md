@@ -72,7 +72,7 @@ Set beam type to protons, beam energy (6.5 TeV in this example), number of event
         #*********************************************************************
         # Number of events and rnd seed                                      *
         #*********************************************************************
-            800000   = nevents ! Number of unweighted events requested 
+            80000    = nevents ! Number of unweighted events requested 
             1234     = iseed   ! rnd seed (0=assigned automatically=default))
         #*********************************************************************
         # Collider type and energy                                           *
