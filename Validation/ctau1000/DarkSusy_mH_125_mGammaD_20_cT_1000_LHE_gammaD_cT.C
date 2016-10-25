@@ -1,12 +1,12 @@
 {
 //=========Macro generated from canvas: cnv/cnv
-//=========  (Tue Oct 25 13:28:03 2016) by ROOT version5.32/04
+//=========  (Tue Oct 25 13:42:43 2016) by ROOT version5.32/04
    TCanvas *cnv = new TCanvas("cnv", "cnv",1,1,904,904);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
    cnv->SetHighLightColor(2);
-   cnv->Range(-1062.5,-0.00585,5187.5,0.03915);
+   cnv->Range(-1062.5,-0.0002779781,5187.5,0.001860315);
    cnv->SetFillColor(0);
    cnv->SetBorderMode(0);
    cnv->SetBorderSize(2);
@@ -21,8 +21,8 @@
    cnv->SetFrameFillStyle(0);
    cnv->SetFrameBorderMode(0);
    
-   TH1F *h_gammaD_cT_dummy = new TH1F("h_gammaD_cT_dummy","h_gammaD_cT_dummy",100,0,5000);
-   h_gammaD_cT_dummy->SetMaximum(0.036);
+   TH1F *h_gammaD_cT_dummy = new TH1F("h_gammaD_cT_dummy","h_gammaD_cT_dummy",50,0,5000);
+   h_gammaD_cT_dummy->SetMaximum(0.001710634);
    h_gammaD_cT_dummy->SetLineStyle(0);
    h_gammaD_cT_dummy->SetMarkerStyle(20);
    h_gammaD_cT_dummy->GetXaxis()->SetTitle("c#tau of #gamma_{D} [mm]");
@@ -31,7 +31,7 @@
    h_gammaD_cT_dummy->GetXaxis()->SetTitleSize(0.06);
    h_gammaD_cT_dummy->GetXaxis()->SetTitleOffset(0.95);
    h_gammaD_cT_dummy->GetXaxis()->SetTitleFont(42);
-   h_gammaD_cT_dummy->GetYaxis()->SetTitle("Normalized Fraction of Events / 50.0 mm");
+   h_gammaD_cT_dummy->GetYaxis()->SetTitle("Normalized Fraction of Events / 100.0 mm");
    h_gammaD_cT_dummy->GetYaxis()->SetLabelFont(42);
    h_gammaD_cT_dummy->GetYaxis()->SetLabelOffset(0.007);
    h_gammaD_cT_dummy->GetYaxis()->SetTitleSize(0.05);
@@ -43,8 +43,58 @@
    h_gammaD_cT_dummy->GetZaxis()->SetTitleFont(42);
    h_gammaD_cT_dummy->Draw("");
    
-   TH1F *h_gammaD_cT = new TH1F("h_gammaD_cT","h_gammaD_cT",100,0,5000);
-   h_gammaD_cT->SetBinContent(1,0.02);
+   TH1F *h_gammaD_cT = new TH1F("h_gammaD_cT","h_gammaD_cT",50,0,5000);
+   h_gammaD_cT->SetBinContent(1,0.0009503525);
+   h_gammaD_cT->SetBinContent(2,0.000849849);
+   h_gammaD_cT->SetBinContent(3,0.0007856999);
+   h_gammaD_cT->SetBinContent(4,0.0007197382);
+   h_gammaD_cT->SetBinContent(5,0.0006414904);
+   h_gammaD_cT->SetBinContent(6,0.0005755287);
+   h_gammaD_cT->SetBinContent(7,0.000518429);
+   h_gammaD_cT->SetBinContent(8,0.0004790534);
+   h_gammaD_cT->SetBinContent(9,0.0004462236);
+   h_gammaD_cT->SetBinContent(10,0.0003949648);
+   h_gammaD_cT->SetBinContent(11,0.0003551863);
+   h_gammaD_cT->SetBinContent(12,0.0003203424);
+   h_gammaD_cT->SetBinContent(13,0.0002835851);
+   h_gammaD_cT->SetBinContent(14,0.0002599194);
+   h_gammaD_cT->SetBinContent(15,0.0002365559);
+   h_gammaD_cT->SetBinContent(16,0.0002165156);
+   h_gammaD_cT->SetBinContent(17,0.0001884189);
+   h_gammaD_cT->SetBinContent(18,0.0001728097);
+   h_gammaD_cT->SetBinContent(19,0.000150856);
+   h_gammaD_cT->SetBinContent(20,0.0001501511);
+   h_gammaD_cT->SetBinContent(21,0.0001311178);
+   h_gammaD_cT->SetBinContent(22,0.0001200403);
+   h_gammaD_cT->SetBinContent(23,0.000109567);
+   h_gammaD_cT->SetBinContent(24,9.828802e-05);
+   h_gammaD_cT->SetBinContent(25,8.549849e-05);
+   h_gammaD_cT->SetBinContent(26,8.16717e-05);
+   h_gammaD_cT->SetBinContent(27,7.099698e-05);
+   h_gammaD_cT->SetBinContent(28,6.455187e-05);
+   h_gammaD_cT->SetBinContent(29,5.568983e-05);
+   h_gammaD_cT->SetBinContent(30,5.377644e-05);
+   h_gammaD_cT->SetBinContent(31,4.994965e-05);
+   h_gammaD_cT->SetBinContent(32,4.803625e-05);
+   h_gammaD_cT->SetBinContent(33,3.816717e-05);
+   h_gammaD_cT->SetBinContent(34,3.383686e-05);
+   h_gammaD_cT->SetBinContent(35,3.454179e-05);
+   h_gammaD_cT->SetBinContent(36,2.65861e-05);
+   h_gammaD_cT->SetBinContent(37,2.708963e-05);
+   h_gammaD_cT->SetBinContent(38,2.225579e-05);
+   h_gammaD_cT->SetBinContent(39,2.054381e-05);
+   h_gammaD_cT->SetBinContent(40,2.074522e-05);
+   h_gammaD_cT->SetBinContent(41,1.732125e-05);
+   h_gammaD_cT->SetBinContent(42,1.581067e-05);
+   h_gammaD_cT->SetBinContent(43,1.359517e-05);
+   h_gammaD_cT->SetBinContent(44,1.299094e-05);
+   h_gammaD_cT->SetBinContent(45,9.969788e-06);
+   h_gammaD_cT->SetBinContent(46,1.01712e-05);
+   h_gammaD_cT->SetBinContent(47,9.365559e-06);
+   h_gammaD_cT->SetBinContent(48,7.653575e-06);
+   h_gammaD_cT->SetBinContent(49,6.344411e-06);
+   h_gammaD_cT->SetBinContent(50,8.1571e-06);
+   h_gammaD_cT->SetBinContent(51,7.029204e-05);
    h_gammaD_cT->SetEntries(99998);
 
    Int_t ci;   // for color index setting

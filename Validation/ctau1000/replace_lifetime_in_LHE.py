@@ -35,7 +35,7 @@ for line in f:
                                 if word_n < 13:
                                         if word_n == 12:
                                           ctau_mm = '%E' % random.expovariate(1.0/ctau_mean_mm) # exponential distribution                                                                                                                                                     
-#                                         print "ctau (mm) mean: ", ctau_mean_mm, " actual: ", ctau_mm                                                                                                                                                                         
+                                          #print "ctau (mm) mean: ", ctau_mean_mm, " actual: ", ctau_mm                                                                                                                                                                         
                                           new_line = new_line + ctau_mm + '   '
                                         else:
                                                 new_line = new_line + word + '   '
