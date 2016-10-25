@@ -133,7 +133,7 @@ cTlow = 0
 
 if float(lifetime_GammaD_Legend) != 0:
 	cTlim = float(lifetime_GammaD_Legend)*5
-	binwidth = float(lifetime_GammaD_Legend)
+	binwidth = float(lifetime_GammaD_Legend)/20.0
 	numBins = int(cTlim/binwidth)
 	binwidthRound = round(binwidth,3)
 else:

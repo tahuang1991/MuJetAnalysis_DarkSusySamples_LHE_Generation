@@ -1,12 +1,12 @@
 {
 //=========Macro generated from canvas: cnv/cnv
-//=========  (Tue Oct 25 12:24:09 2016) by ROOT version5.32/04
+//=========  (Tue Oct 25 13:28:03 2016) by ROOT version5.32/04
    TCanvas *cnv = new TCanvas("cnv", "cnv",1,1,904,904);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
    cnv->SetHighLightColor(2);
-   cnv->Range(-1062.5,-0.0002925,5187.5,0.0019575);
+   cnv->Range(-1062.5,-0.00585,5187.5,0.03915);
    cnv->SetFillColor(0);
    cnv->SetBorderMode(0);
    cnv->SetBorderSize(2);
@@ -21,8 +21,8 @@
    cnv->SetFrameFillStyle(0);
    cnv->SetFrameBorderMode(0);
    
-   TH1F *h_gammaD_cT_XY_lab_dummy = new TH1F("h_gammaD_cT_XY_lab_dummy","h_gammaD_cT_XY_lab_dummy",5,0,5000);
-   h_gammaD_cT_XY_lab_dummy->SetMaximum(0.0018);
+   TH1F *h_gammaD_cT_XY_lab_dummy = new TH1F("h_gammaD_cT_XY_lab_dummy","h_gammaD_cT_XY_lab_dummy",100,0,5000);
+   h_gammaD_cT_XY_lab_dummy->SetMaximum(0.036);
    h_gammaD_cT_XY_lab_dummy->SetLineStyle(0);
    h_gammaD_cT_XY_lab_dummy->SetMarkerStyle(20);
    h_gammaD_cT_XY_lab_dummy->GetXaxis()->SetTitle("L_{XY} of #gamma_{D} [mm]");
@@ -31,7 +31,7 @@
    h_gammaD_cT_XY_lab_dummy->GetXaxis()->SetTitleSize(0.06);
    h_gammaD_cT_XY_lab_dummy->GetXaxis()->SetTitleOffset(0.95);
    h_gammaD_cT_XY_lab_dummy->GetXaxis()->SetTitleFont(42);
-   h_gammaD_cT_XY_lab_dummy->GetYaxis()->SetTitle("Normalized Fraction of Events / 1000.0 mm");
+   h_gammaD_cT_XY_lab_dummy->GetYaxis()->SetTitle("Normalized Fraction of Events / 50.0 mm");
    h_gammaD_cT_XY_lab_dummy->GetYaxis()->SetLabelFont(42);
    h_gammaD_cT_XY_lab_dummy->GetYaxis()->SetLabelOffset(0.007);
    h_gammaD_cT_XY_lab_dummy->GetYaxis()->SetTitleSize(0.05);
@@ -43,8 +43,8 @@
    h_gammaD_cT_XY_lab_dummy->GetZaxis()->SetTitleFont(42);
    h_gammaD_cT_XY_lab_dummy->Draw("");
    
-   TH1F *h_gammaD_cT_XY_lab = new TH1F("h_gammaD_cT_XY_lab","h_gammaD_cT_XY_lab",5,0,5000);
-   h_gammaD_cT_XY_lab->SetBinContent(1,0.001);
+   TH1F *h_gammaD_cT_XY_lab = new TH1F("h_gammaD_cT_XY_lab","h_gammaD_cT_XY_lab",100,0,5000);
+   h_gammaD_cT_XY_lab->SetBinContent(1,0.02);
    h_gammaD_cT_XY_lab->SetEntries(99998);
 
    Int_t ci;   // for color index setting
