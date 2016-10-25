@@ -1,12 +1,12 @@
 {
 //=========Macro generated from canvas: cnv/cnv
-//=========  (Tue Oct 25 16:11:54 2016) by ROOT version5.32/04
+//=========  (Tue Oct 25 16:25:18 2016) by ROOT version5.32/04
    TCanvas *cnv = new TCanvas("cnv", "cnv",1,1,904,904);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
    cnv->SetHighLightColor(2);
-   cnv->Range(-106.25,-0.02925,518.75,0.19575);
+   cnv->Range(-106.25,-0.001565601,518.75,0.01047749);
    cnv->SetFillColor(0);
    cnv->SetBorderMode(0);
    cnv->SetBorderSize(2);
@@ -22,7 +22,7 @@
    cnv->SetFrameBorderMode(0);
    
    TH1F *h_gammaD_1_cT_lab_dummy = new TH1F("h_gammaD_1_cT_lab_dummy","h_gammaD_1_cT_lab_dummy",50,0,500);
-   h_gammaD_1_cT_lab_dummy->SetMaximum(0.18);
+   h_gammaD_1_cT_lab_dummy->SetMaximum(0.00963447);
    h_gammaD_1_cT_lab_dummy->SetLineStyle(0);
    h_gammaD_1_cT_lab_dummy->SetMarkerStyle(20);
    h_gammaD_1_cT_lab_dummy->GetXaxis()->SetTitle("L of #gamma_{D} [mm]");
@@ -44,7 +44,57 @@
    h_gammaD_1_cT_lab_dummy->Draw("");
    
    TH1F *h_gammaD_1_cT_lab = new TH1F("h_gammaD_1_cT_lab","h_gammaD_1_cT_lab",50,0,500);
-   h_gammaD_1_cT_lab->SetBinContent(1,0.1);
+   h_gammaD_1_cT_lab->SetBinContent(1,0.00446406);
+   h_gammaD_1_cT_lab->SetBinContent(2,0.004402215);
+   h_gammaD_1_cT_lab->SetBinContent(3,0.004334748);
+   h_gammaD_1_cT_lab->SetBinContent(4,0.00393838);
+   h_gammaD_1_cT_lab->SetBinContent(5,0.003733168);
+   h_gammaD_1_cT_lab->SetBinContent(6,0.003508279);
+   h_gammaD_1_cT_lab->SetBinContent(7,0.003333989);
+   h_gammaD_1_cT_lab->SetBinContent(8,0.003463301);
+   h_gammaD_1_cT_lab->SetBinContent(9,0.003145644);
+   h_gammaD_1_cT_lab->SetBinContent(10,0.003052877);
+   h_gammaD_1_cT_lab->SetBinContent(11,0.002965732);
+   h_gammaD_1_cT_lab->SetBinContent(12,0.002788632);
+   h_gammaD_1_cT_lab->SetBinContent(13,0.002864532);
+   h_gammaD_1_cT_lab->SetBinContent(14,0.002530009);
+   h_gammaD_1_cT_lab->SetBinContent(15,0.002591853);
+   h_gammaD_1_cT_lab->SetBinContent(16,0.002499086);
+   h_gammaD_1_cT_lab->SetBinContent(17,0.002336041);
+   h_gammaD_1_cT_lab->SetBinContent(18,0.002147696);
+   h_gammaD_1_cT_lab->SetBinContent(19,0.002147696);
+   h_gammaD_1_cT_lab->SetBinContent(20,0.00218143);
+   h_gammaD_1_cT_lab->SetBinContent(21,0.002142074);
+   h_gammaD_1_cT_lab->SetBinContent(22,0.001914373);
+   h_gammaD_1_cT_lab->SetBinContent(23,0.001695106);
+   h_gammaD_1_cT_lab->SetBinContent(24,0.001801928);
+   h_gammaD_1_cT_lab->SetBinContent(25,0.001756951);
+   h_gammaD_1_cT_lab->SetBinContent(26,0.00170635);
+   h_gammaD_1_cT_lab->SetBinContent(27,0.00155455);
+   h_gammaD_1_cT_lab->SetBinContent(28,0.001532061);
+   h_gammaD_1_cT_lab->SetBinContent(29,0.001540494);
+   h_gammaD_1_cT_lab->SetBinContent(30,0.001458972);
+   h_gammaD_1_cT_lab->SetBinContent(31,0.001425238);
+   h_gammaD_1_cT_lab->SetBinContent(32,0.001338094);
+   h_gammaD_1_cT_lab->SetBinContent(33,0.001340905);
+   h_gammaD_1_cT_lab->SetBinContent(34,0.00127906);
+   h_gammaD_1_cT_lab->SetBinContent(35,0.001234082);
+   h_gammaD_1_cT_lab->SetBinContent(36,0.001065415);
+   h_gammaD_1_cT_lab->SetBinContent(37,0.001093526);
+   h_gammaD_1_cT_lab->SetBinContent(38,0.001127259);
+   h_gammaD_1_cT_lab->SetBinContent(39,0.001031681);
+   h_gammaD_1_cT_lab->SetBinContent(40,0.001056981);
+   h_gammaD_1_cT_lab->SetBinContent(41,0.0009332921);
+   h_gammaD_1_cT_lab->SetBinContent(42,0.001020437);
+   h_gammaD_1_cT_lab->SetBinContent(43,0.0008742586);
+   h_gammaD_1_cT_lab->SetBinContent(44,0.0008489585);
+   h_gammaD_1_cT_lab->SetBinContent(45,0.0008770697);
+   h_gammaD_1_cT_lab->SetBinContent(46,0.0007421359);
+   h_gammaD_1_cT_lab->SetBinContent(47,0.0007561915);
+   h_gammaD_1_cT_lab->SetBinContent(48,0.0008236584);
+   h_gammaD_1_cT_lab->SetBinContent(49,0.0007955472);
+   h_gammaD_1_cT_lab->SetBinContent(50,0.0008039806);
+   h_gammaD_1_cT_lab->SetBinContent(51,0.04055323);
    h_gammaD_1_cT_lab->SetEntries(49999);
 
    Int_t ci;   // for color index setting
@@ -69,7 +119,57 @@
    h_gammaD_1_cT_lab->Draw("same");
    
    TH1F *h_gammaD_2_cT_lab = new TH1F("h_gammaD_2_cT_lab","h_gammaD_2_cT_lab",50,0,500);
-   h_gammaD_2_cT_lab->SetBinContent(1,0.1);
+   h_gammaD_2_cT_lab->SetBinContent(1,0.005223322);
+   h_gammaD_2_cT_lab->SetBinContent(2,0.005352484);
+   h_gammaD_2_cT_lab->SetBinContent(3,0.004861667);
+   h_gammaD_2_cT_lab->SetBinContent(4,0.004691173);
+   h_gammaD_2_cT_lab->SetBinContent(5,0.004427682);
+   h_gammaD_2_cT_lab->SetBinContent(6,0.003993697);
+   h_gammaD_2_cT_lab->SetBinContent(7,0.003825786);
+   h_gammaD_2_cT_lab->SetBinContent(8,0.003665625);
+   h_gammaD_2_cT_lab->SetBinContent(9,0.003334969);
+   h_gammaD_2_cT_lab->SetBinContent(10,0.003252306);
+   h_gammaD_2_cT_lab->SetBinContent(11,0.003084395);
+   h_gammaD_2_cT_lab->SetBinContent(12,0.002955232);
+   h_gammaD_2_cT_lab->SetBinContent(13,0.002771822);
+   h_gammaD_2_cT_lab->SetBinContent(14,0.002585828);
+   h_gammaD_2_cT_lab->SetBinContent(15,0.00254708);
+   h_gammaD_2_cT_lab->SetBinContent(16,0.002459249);
+   h_gammaD_2_cT_lab->SetBinContent(17,0.002319754);
+   h_gammaD_2_cT_lab->SetBinContent(18,0.002056263);
+   h_gammaD_2_cT_lab->SetBinContent(19,0.002164759);
+   h_gammaD_2_cT_lab->SetBinContent(20,0.001973599);
+   h_gammaD_2_cT_lab->SetBinContent(21,0.001872853);
+   h_gammaD_2_cT_lab->SetBinContent(22,0.001792772);
+   h_gammaD_2_cT_lab->SetBinContent(23,0.001645527);
+   h_gammaD_2_cT_lab->SetBinContent(24,0.001710108);
+   h_gammaD_2_cT_lab->SetBinContent(25,0.001490532);
+   h_gammaD_2_cT_lab->SetBinContent(26,0.001485366);
+   h_gammaD_2_cT_lab->SetBinContent(27,0.001451784);
+   h_gammaD_2_cT_lab->SetBinContent(28,0.001387203);
+   h_gammaD_2_cT_lab->SetBinContent(29,0.001356204);
+   h_gammaD_2_cT_lab->SetBinContent(30,0.001252874);
+   h_gammaD_2_cT_lab->SetBinContent(31,0.001113379);
+   h_gammaD_2_cT_lab->SetBinContent(32,0.001180543);
+   h_gammaD_2_cT_lab->SetBinContent(33,0.00117021);
+   h_gammaD_2_cT_lab->SetBinContent(34,0.001149544);
+   h_gammaD_2_cT_lab->SetBinContent(35,0.001022965);
+   h_gammaD_2_cT_lab->SetBinContent(36,0.0009661337);
+   h_gammaD_2_cT_lab->SetBinContent(37,0.0009144688);
+   h_gammaD_2_cT_lab->SetBinContent(38,0.000927385);
+   h_gammaD_2_cT_lab->SetBinContent(39,0.0008602206);
+   h_gammaD_2_cT_lab->SetBinContent(40,0.0008318049);
+   h_gammaD_2_cT_lab->SetBinContent(41,0.0007827232);
+   h_gammaD_2_cT_lab->SetBinContent(42,0.0007336416);
+   h_gammaD_2_cT_lab->SetBinContent(43,0.0007465578);
+   h_gammaD_2_cT_lab->SetBinContent(44,0.0007000594);
+   h_gammaD_2_cT_lab->SetBinContent(45,0.0006819767);
+   h_gammaD_2_cT_lab->SetBinContent(46,0.0007078092);
+   h_gammaD_2_cT_lab->SetBinContent(47,0.0007233086);
+   h_gammaD_2_cT_lab->SetBinContent(48,0.0006458113);
+   h_gammaD_2_cT_lab->SetBinContent(49,0.0006148123);
+   h_gammaD_2_cT_lab->SetBinContent(50,0.0005347317);
+   h_gammaD_2_cT_lab->SetBinContent(51,0.02915967);
    h_gammaD_2_cT_lab->SetEntries(49999);
 
    ci = TColor::GetColor("#ff0000");
@@ -128,7 +228,7 @@
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   entry=leg->AddEntry("NULL","#splitline{pp #rightarrow h #rightarrow 2n_{1} #rightarrow 2n_{D} + 2 #gamma_{D} #rightarrow 2n_{D} + 4#mu}{#splitline{m_{h} = 125 GeV, m_{n_{1}} = 10 GeV, m_{n_{D}} = 1 GeV}{m_{#gamma_{D}} = 20 GeV, c#tau_{#gamma_{D}} = 100 mm}}","h");
+   entry=leg->AddEntry("NULL","#splitline{pp #rightarrow h #rightarrow 2n_{1} #rightarrow 2n_{D} + 2 #gamma_{D} #rightarrow 2n_{D} + 4#mu}{#splitline{m_{h} = 125 GeV, m_{n_{1}} = 50 GeV, m_{n_{D}} = 1 GeV}{m_{#gamma_{D}} = 20 GeV, c#tau_{#gamma_{D}} = 100 mm}}","h");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);

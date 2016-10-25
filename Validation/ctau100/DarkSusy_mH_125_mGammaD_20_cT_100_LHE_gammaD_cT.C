@@ -1,12 +1,12 @@
 {
 //=========Macro generated from canvas: cnv/cnv
-//=========  (Tue Oct 25 16:11:53 2016) by ROOT version5.32/04
+//=========  (Tue Oct 25 16:25:18 2016) by ROOT version5.32/04
    TCanvas *cnv = new TCanvas("cnv", "cnv",1,1,904,904);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
    cnv->SetHighLightColor(2);
-   cnv->Range(-106.25,-0.02925,518.75,0.19575);
+   cnv->Range(-106.25,-0.002800344,518.75,0.01874076);
    cnv->SetFillColor(0);
    cnv->SetBorderMode(0);
    cnv->SetBorderSize(2);
@@ -22,7 +22,7 @@
    cnv->SetFrameBorderMode(0);
    
    TH1F *h_gammaD_cT_dummy = new TH1F("h_gammaD_cT_dummy","h_gammaD_cT_dummy",50,0,500);
-   h_gammaD_cT_dummy->SetMaximum(0.18);
+   h_gammaD_cT_dummy->SetMaximum(0.01723289);
    h_gammaD_cT_dummy->SetLineStyle(0);
    h_gammaD_cT_dummy->SetMarkerStyle(20);
    h_gammaD_cT_dummy->GetXaxis()->SetTitle("c#tau of #gamma_{D} [mm]");
@@ -44,7 +44,57 @@
    h_gammaD_cT_dummy->Draw("");
    
    TH1F *h_gammaD_cT = new TH1F("h_gammaD_cT","h_gammaD_cT",50,0,500);
-   h_gammaD_cT->SetBinContent(1,0.1);
+   h_gammaD_cT->SetBinContent(1,0.009573826);
+   h_gammaD_cT->SetBinContent(2,0.00853155);
+   h_gammaD_cT->SetBinContent(3,0.007949487);
+   h_gammaD_cT->SetBinContent(4,0.007046182);
+   h_gammaD_cT->SetBinContent(5,0.006502387);
+   h_gammaD_cT->SetBinContent(6,0.005759199);
+   h_gammaD_cT->SetBinContent(7,0.005222453);
+   h_gammaD_cT->SetBinContent(8,0.004837768);
+   h_gammaD_cT->SetBinContent(9,0.004276853);
+   h_gammaD_cT->SetBinContent(10,0.00390828);
+   h_gammaD_cT->SetBinContent(11,0.003527623);
+   h_gammaD_cT->SetBinContent(12,0.003175163);
+   h_gammaD_cT->SetBinContent(13,0.002909307);
+   h_gammaD_cT->SetBinContent(14,0.002513545);
+   h_gammaD_cT->SetBinContent(15,0.002334293);
+   h_gammaD_cT->SetBinContent(16,0.00213188);
+   h_gammaD_cT->SetBinContent(17,0.001922418);
+   h_gammaD_cT->SetBinContent(18,0.001802582);
+   h_gammaD_cT->SetBinContent(19,0.00162031);
+   h_gammaD_cT->SetBinContent(20,0.001408834);
+   h_gammaD_cT->SetBinContent(21,0.001363517);
+   h_gammaD_cT->SetBinContent(22,0.001234618);
+   h_gammaD_cT->SetBinContent(23,0.00106443);
+   h_gammaD_cT->SetBinContent(24,0.0009486214);
+   h_gammaD_cT->SetBinContent(25,0.0008942418);
+   h_gammaD_cT->SetBinContent(26,0.0007582929);
+   h_gammaD_cT->SetBinContent(27,0.0007250609);
+   h_gammaD_cT->SetBinContent(28,0.0006152947);
+   h_gammaD_cT->SetBinContent(29,0.0005840769);
+   h_gammaD_cT->SetBinContent(30,0.0004944513);
+   h_gammaD_cT->SetBinContent(31,0.0005075426);
+   h_gammaD_cT->SetBinContent(32,0.0004541701);
+   h_gammaD_cT->SetBinContent(33,0.0003937484);
+   h_gammaD_cT->SetBinContent(34,0.0003615234);
+   h_gammaD_cT->SetBinContent(35,0.0003282915);
+   h_gammaD_cT->SetBinContent(36,0.0002880103);
+   h_gammaD_cT->SetBinContent(37,0.0002729049);
+   h_gammaD_cT->SetBinContent(38,0.0002396729);
+   h_gammaD_cT->SetBinContent(39,0.0001973777);
+   h_gammaD_cT->SetBinContent(40,0.0001943566);
+   h_gammaD_cT->SetBinContent(41,0.0001480333);
+   h_gammaD_cT->SetBinContent(42,0.0001601176);
+   h_gammaD_cT->SetBinContent(43,0.0001490403);
+   h_gammaD_cT->SetBinContent(44,0.0001299068);
+   h_gammaD_cT->SetBinContent(45,9.667479e-05);
+   h_gammaD_cT->SetBinContent(46,8.559747e-05);
+   h_gammaD_cT->SetBinContent(47,0.0001117802);
+   h_gammaD_cT->SetBinContent(48,8.459044e-05);
+   h_gammaD_cT->SetBinContent(49,8.056233e-05);
+   h_gammaD_cT->SetBinContent(50,7.95553e-05);
+   h_gammaD_cT->SetBinContent(51,0.0007008922);
    h_gammaD_cT->SetEntries(99998);
 
    Int_t ci;   // for color index setting
@@ -97,7 +147,7 @@
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   TLegendEntry *entry=leg->AddEntry("NULL","#splitline{pp #rightarrow h #rightarrow 2n_{1} #rightarrow 2n_{D} + 2 #gamma_{D} #rightarrow 2n_{D} + 4#mu}{#splitline{m_{h} = 125 GeV, m_{n_{1}} = 10 GeV, m_{n_{D}} = 1 GeV}{m_{#gamma_{D}} = 20 GeV, c#tau_{#gamma_{D}} = 100 mm}}","h");
+   TLegendEntry *entry=leg->AddEntry("NULL","#splitline{pp #rightarrow h #rightarrow 2n_{1} #rightarrow 2n_{D} + 2 #gamma_{D} #rightarrow 2n_{D} + 4#mu}{#splitline{m_{h} = 125 GeV, m_{n_{1}} = 50 GeV, m_{n_{D}} = 1 GeV}{m_{#gamma_{D}} = 20 GeV, c#tau_{#gamma_{D}} = 100 mm}}","h");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);

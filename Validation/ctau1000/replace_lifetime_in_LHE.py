@@ -12,9 +12,9 @@ ctau_mean_mm = float(sys.argv[1])
 #filename = "DarkSUSY_mH_125_mGammaD_2000_ctauExp_0_13TeV-madgraph452_bridge224_events80k.lhe"
 filenamefull = sys.argv[2]
 filename = "DarkSUSY_mH_125_mGammaD_20_14TeV_cT_%.0f_madgraph452_bridge224_events50k.lhe"%(ctau_mean_mm)
-print "original file ",filenamefull
-print "after ctau replacement ",filename
-os.system("cp %s %s"%(filenamefull, filename))
+#print "original file ",filenamefull
+#print "after ctau replacement ",filename
+#os.system("cp %s %s"%(filenamefull, filename))
 f = open(filenamefull, 'r')
 event_begin = False
 event_end = True

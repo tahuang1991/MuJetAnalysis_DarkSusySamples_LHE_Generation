@@ -1,12 +1,12 @@
 {
 //=========Macro generated from canvas: cnv/cnv
-//=========  (Tue Oct 25 16:11:53 2016) by ROOT version5.32/04
+//=========  (Tue Oct 25 16:25:18 2016) by ROOT version5.32/04
    TCanvas *cnv = new TCanvas("cnv", "cnv",1,1,904,904);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
    cnv->SetHighLightColor(2);
-   cnv->Range(-106.25,-0.02925,518.75,0.19575);
+   cnv->Range(-106.25,-0.001432496,518.75,0.009586701);
    cnv->SetFillColor(0);
    cnv->SetBorderMode(0);
    cnv->SetBorderSize(2);
@@ -22,7 +22,7 @@
    cnv->SetFrameBorderMode(0);
    
    TH1F *h_gammaD_cT_lab_dummy = new TH1F("h_gammaD_cT_lab_dummy","h_gammaD_cT_lab_dummy",50,0,500);
-   h_gammaD_cT_lab_dummy->SetMaximum(0.18);
+   h_gammaD_cT_lab_dummy->SetMaximum(0.008815357);
    h_gammaD_cT_lab_dummy->SetLineStyle(0);
    h_gammaD_cT_lab_dummy->SetMarkerStyle(20);
    h_gammaD_cT_lab_dummy->GetXaxis()->SetTitle("L of #gamma_{D} [mm]");
@@ -44,7 +44,57 @@
    h_gammaD_cT_lab_dummy->Draw("");
    
    TH1F *h_gammaD_cT_lab = new TH1F("h_gammaD_cT_lab","h_gammaD_cT_lab",50,0,500);
-   h_gammaD_cT_lab->SetBinContent(1,0.1);
+   h_gammaD_cT_lab->SetBinContent(1,0.004859727);
+   h_gammaD_cT_lab->SetBinContent(2,0.004897421);
+   h_gammaD_cT_lab->SetBinContent(3,0.004609337);
+   h_gammaD_cT_lab->SetBinContent(4,0.004330677);
+   h_gammaD_cT_lab->SetBinContent(5,0.004095094);
+   h_gammaD_cT_lab->SetBinContent(6,0.003761241);
+   h_gammaD_cT_lab->SetBinContent(7,0.003590275);
+   h_gammaD_cT_lab->SetBinContent(8,0.003568736);
+   h_gammaD_cT_lab->SetBinContent(9,0.003244306);
+   h_gammaD_cT_lab->SetBinContent(10,0.003156804);
+   h_gammaD_cT_lab->SetBinContent(11,0.00302757);
+   h_gammaD_cT_lab->SetBinContent(12,0.002875451);
+   h_gammaD_cT_lab->SetBinContent(13,0.002816219);
+   h_gammaD_cT_lab->SetBinContent(14,0.002559097);
+   h_gammaD_cT_lab->SetBinContent(15,0.002568521);
+   h_gammaD_cT_lab->SetBinContent(16,0.002478326);
+   h_gammaD_cT_lab->SetBinContent(17,0.002327554);
+   h_gammaD_cT_lab->SetBinContent(18,0.002100048);
+   h_gammaD_cT_lab->SetBinContent(19,0.002156588);
+   h_gammaD_cT_lab->SetBinContent(20,0.002073125);
+   h_gammaD_cT_lab->SetBinContent(21,0.002001777);
+   h_gammaD_cT_lab->SetBinContent(22,0.001851004);
+   h_gammaD_cT_lab->SetBinContent(23,0.001669269);
+   h_gammaD_cT_lab->SetBinContent(24,0.001754079);
+   h_gammaD_cT_lab->SetBinContent(25,0.001618114);
+   h_gammaD_cT_lab->SetBinContent(26,0.001591191);
+   h_gammaD_cT_lab->SetBinContent(27,0.001500996);
+   h_gammaD_cT_lab->SetBinContent(28,0.001456572);
+   h_gammaD_cT_lab->SetBinContent(29,0.001444456);
+   h_gammaD_cT_lab->SetBinContent(30,0.00135157);
+   h_gammaD_cT_lab->SetBinContent(31,0.001262721);
+   h_gammaD_cT_lab->SetBinContent(32,0.00125599);
+   h_gammaD_cT_lab->SetBinContent(33,0.001251952);
+   h_gammaD_cT_lab->SetBinContent(34,0.001211566);
+   h_gammaD_cT_lab->SetBinContent(35,0.001124064);
+   h_gammaD_cT_lab->SetBinContent(36,0.001013677);
+   h_gammaD_cT_lab->SetBinContent(37,0.001000215);
+   h_gammaD_cT_lab->SetBinContent(38,0.001023101);
+   h_gammaD_cT_lab->SetBinContent(39,0.0009423294);
+   h_gammaD_cT_lab->SetBinContent(40,0.0009396371);
+   h_gammaD_cT_lab->SetBinContent(41,0.0008548274);
+   h_gammaD_cT_lab->SetBinContent(42,0.0008709817);
+   h_gammaD_cT_lab->SetBinContent(43,0.0008077109);
+   h_gammaD_cT_lab->SetBinContent(44,0.000771364);
+   h_gammaD_cT_lab->SetBinContent(45,0.0007754025);
+   h_gammaD_cT_lab->SetBinContent(46,0.0007242475);
+   h_gammaD_cT_lab->SetBinContent(47,0.0007390555);
+   h_gammaD_cT_lab->SetBinContent(48,0.0007309784);
+   h_gammaD_cT_lab->SetBinContent(49,0.0007013623);
+   h_gammaD_cT_lab->SetBinContent(50,0.0006636691);
+   h_gammaD_cT_lab->SetBinContent(51,0.0346158);
    h_gammaD_cT_lab->SetEntries(99998);
 
    Int_t ci;   // for color index setting
@@ -78,7 +128,7 @@
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   TLegendEntry *entry=leg->AddEntry("NULL","#splitline{pp #rightarrow h #rightarrow 2n_{1} #rightarrow 2n_{D} + 2 #gamma_{D} #rightarrow 2n_{D} + 4#mu}{#splitline{m_{h} = 125 GeV, m_{n_{1}} = 10 GeV, m_{n_{D}} = 1 GeV}{m_{#gamma_{D}} = 20 GeV, c#tau_{#gamma_{D}} = 100 mm}}","h");
+   TLegendEntry *entry=leg->AddEntry("NULL","#splitline{pp #rightarrow h #rightarrow 2n_{1} #rightarrow 2n_{D} + 2 #gamma_{D} #rightarrow 2n_{D} + 4#mu}{#splitline{m_{h} = 125 GeV, m_{n_{1}} = 50 GeV, m_{n_{D}} = 1 GeV}{m_{#gamma_{D}} = 20 GeV, c#tau_{#gamma_{D}} = 100 mm}}","h");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
