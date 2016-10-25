@@ -1,6 +1,6 @@
 {
 //=========Macro generated from canvas: cnv/cnv
-//=========  (Tue Oct 25 12:18:44 2016) by ROOT version5.32/04
+//=========  (Tue Oct 25 15:47:59 2016) by ROOT version5.32/04
    TCanvas *cnv = new TCanvas("cnv", "cnv",1,1,904,904);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
@@ -72,6 +72,58 @@
    h_higgs_M_dummy->GetZaxis()->SetTitleFont(42);
    h_higgs_M_dummy->Draw("same");
    
+   TH1F *h_higgs_M__5 = new TH1F("h_higgs_M__5","h_higgs_M",10,120.5,130.5);
+   h_higgs_M__5->SetBinContent(5,1);
+   h_higgs_M__5->SetEntries(49999);
+   h_higgs_M__5->SetDirectory(0);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#0000ff");
+   h_higgs_M__5->SetLineColor(ci);
+   h_higgs_M__5->SetLineWidth(2);
+   h_higgs_M__5->SetMarkerStyle(20);
+   h_higgs_M__5->GetXaxis()->SetLabelFont(42);
+   h_higgs_M__5->GetXaxis()->SetLabelOffset(0.007);
+   h_higgs_M__5->GetXaxis()->SetTitleSize(0.06);
+   h_higgs_M__5->GetXaxis()->SetTitleOffset(0.95);
+   h_higgs_M__5->GetXaxis()->SetTitleFont(42);
+   h_higgs_M__5->GetYaxis()->SetLabelFont(42);
+   h_higgs_M__5->GetYaxis()->SetLabelOffset(0.007);
+   h_higgs_M__5->GetYaxis()->SetTitleSize(0.06);
+   h_higgs_M__5->GetYaxis()->SetTitleOffset(1.3);
+   h_higgs_M__5->GetYaxis()->SetTitleFont(42);
+   h_higgs_M__5->GetZaxis()->SetLabelFont(42);
+   h_higgs_M__5->GetZaxis()->SetLabelOffset(0.007);
+   h_higgs_M__5->GetZaxis()->SetTitleSize(0.06);
+   h_higgs_M__5->GetZaxis()->SetTitleFont(42);
+   h_higgs_M__5->Draw("same");
+   
+   TH1F *h_higgs_M__6 = new TH1F("h_higgs_M__6","h_higgs_M",10,120.5,130.5);
+   h_higgs_M__6->SetBinContent(5,1);
+   h_higgs_M__6->SetEntries(49999);
+   h_higgs_M__6->SetDirectory(0);
+
+   ci = TColor::GetColor("#0000ff");
+   h_higgs_M__6->SetLineColor(ci);
+   h_higgs_M__6->SetLineWidth(2);
+   h_higgs_M__6->SetMarkerStyle(20);
+   h_higgs_M__6->GetXaxis()->SetMoreLogLabels();
+   h_higgs_M__6->GetXaxis()->SetLabelFont(42);
+   h_higgs_M__6->GetXaxis()->SetLabelOffset(0.007);
+   h_higgs_M__6->GetXaxis()->SetTitleSize(0.06);
+   h_higgs_M__6->GetXaxis()->SetTitleOffset(0.95);
+   h_higgs_M__6->GetXaxis()->SetTitleFont(42);
+   h_higgs_M__6->GetYaxis()->SetLabelFont(42);
+   h_higgs_M__6->GetYaxis()->SetLabelOffset(0.007);
+   h_higgs_M__6->GetYaxis()->SetTitleSize(0.06);
+   h_higgs_M__6->GetYaxis()->SetTitleOffset(1.3);
+   h_higgs_M__6->GetYaxis()->SetTitleFont(42);
+   h_higgs_M__6->GetZaxis()->SetLabelFont(42);
+   h_higgs_M__6->GetZaxis()->SetLabelOffset(0.007);
+   h_higgs_M__6->GetZaxis()->SetTitleSize(0.06);
+   h_higgs_M__6->GetZaxis()->SetTitleFont(42);
+   h_higgs_M__6->Draw("same");
+   
    TLegend *leg = new TLegend(0.4566667,0.82,0.7822222,0.9066667,NULL,"brNDC");
    leg->SetBorderSize(0);
    leg->SetTextSize(0.02777778);
@@ -133,6 +185,32 @@
    h_higgs_M_dummy->GetZaxis()->SetTitleSize(0.06);
    h_higgs_M_dummy->GetZaxis()->SetTitleFont(42);
    h_higgs_M_dummy->Draw("same");
+   
+   TH1F *h_higgs_M__7 = new TH1F("h_higgs_M__7","h_higgs_M",10,120.5,130.5);
+   h_higgs_M__7->SetBinContent(5,1);
+   h_higgs_M__7->SetEntries(49999);
+   h_higgs_M__7->SetDirectory(0);
+
+   ci = TColor::GetColor("#0000ff");
+   h_higgs_M__7->SetLineColor(ci);
+   h_higgs_M__7->SetLineWidth(2);
+   h_higgs_M__7->SetMarkerStyle(20);
+   h_higgs_M__7->GetXaxis()->SetMoreLogLabels();
+   h_higgs_M__7->GetXaxis()->SetLabelFont(42);
+   h_higgs_M__7->GetXaxis()->SetLabelOffset(0.007);
+   h_higgs_M__7->GetXaxis()->SetTitleSize(0.06);
+   h_higgs_M__7->GetXaxis()->SetTitleOffset(0.95);
+   h_higgs_M__7->GetXaxis()->SetTitleFont(42);
+   h_higgs_M__7->GetYaxis()->SetLabelFont(42);
+   h_higgs_M__7->GetYaxis()->SetLabelOffset(0.007);
+   h_higgs_M__7->GetYaxis()->SetTitleSize(0.06);
+   h_higgs_M__7->GetYaxis()->SetTitleOffset(1.3);
+   h_higgs_M__7->GetYaxis()->SetTitleFont(42);
+   h_higgs_M__7->GetZaxis()->SetLabelFont(42);
+   h_higgs_M__7->GetZaxis()->SetLabelOffset(0.007);
+   h_higgs_M__7->GetZaxis()->SetTitleSize(0.06);
+   h_higgs_M__7->GetZaxis()->SetTitleFont(42);
+   h_higgs_M__7->Draw("same");
    cnv->Modified();
    cnv->cd();
    cnv->SetSelected(cnv);

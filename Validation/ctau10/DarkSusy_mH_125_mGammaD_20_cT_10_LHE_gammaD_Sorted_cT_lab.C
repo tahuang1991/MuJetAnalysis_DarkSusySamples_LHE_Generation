@@ -1,12 +1,12 @@
 {
 //=========Macro generated from canvas: cnv/cnv
-//=========  (Tue Oct 25 12:18:46 2016) by ROOT version5.32/04
+//=========  (Tue Oct 25 15:48:02 2016) by ROOT version5.32/04
    TCanvas *cnv = new TCanvas("cnv", "cnv",1,1,904,904);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
    cnv->SetHighLightColor(2);
-   cnv->Range(-10.625,-0.02925,51.875,0.19575);
+   cnv->Range(-10.625,-0.01240409,51.875,0.08301197);
    cnv->SetFillColor(0);
    cnv->SetBorderMode(0);
    cnv->SetBorderSize(2);
@@ -22,7 +22,7 @@
    cnv->SetFrameBorderMode(0);
    
    TH1F *h_gammaD_1_cT_lab_dummy = new TH1F("h_gammaD_1_cT_lab_dummy","h_gammaD_1_cT_lab_dummy",5,0,50);
-   h_gammaD_1_cT_lab_dummy->SetMaximum(0.18);
+   h_gammaD_1_cT_lab_dummy->SetMaximum(0.07633284);
    h_gammaD_1_cT_lab_dummy->SetLineStyle(0);
    h_gammaD_1_cT_lab_dummy->SetMarkerStyle(20);
    h_gammaD_1_cT_lab_dummy->GetXaxis()->SetTitle("L of #gamma_{D} [mm]");
@@ -44,7 +44,12 @@
    h_gammaD_1_cT_lab_dummy->Draw("");
    
    TH1F *h_gammaD_1_cT_lab = new TH1F("h_gammaD_1_cT_lab","h_gammaD_1_cT_lab",5,0,50);
-   h_gammaD_1_cT_lab->SetBinContent(1,0.1);
+   h_gammaD_1_cT_lab->SetBinContent(1,0.03782169);
+   h_gammaD_1_cT_lab->SetBinContent(2,0.02442709);
+   h_gammaD_1_cT_lab->SetBinContent(3,0.01708431);
+   h_gammaD_1_cT_lab->SetBinContent(4,0.01180201);
+   h_gammaD_1_cT_lab->SetBinContent(5,0.008864898);
+   h_gammaD_1_cT_lab->SetBinContent(6,0.04093356);
    h_gammaD_1_cT_lab->SetEntries(49999);
 
    Int_t ci;   // for color index setting
@@ -69,7 +74,12 @@
    h_gammaD_1_cT_lab->Draw("same");
    
    TH1F *h_gammaD_2_cT_lab = new TH1F("h_gammaD_2_cT_lab","h_gammaD_2_cT_lab",5,0,50);
-   h_gammaD_2_cT_lab->SetBinContent(1,0.1);
+   h_gammaD_2_cT_lab->SetBinContent(1,0.04240714);
+   h_gammaD_2_cT_lab->SetBinContent(2,0.02493491);
+   h_gammaD_2_cT_lab->SetBinContent(3,0.01575542);
+   h_gammaD_2_cT_lab->SetBinContent(4,0.01018483);
+   h_gammaD_2_cT_lab->SetBinContent(5,0.006717707);
+   h_gammaD_2_cT_lab->SetBinContent(6,0.02888666);
    h_gammaD_2_cT_lab->SetEntries(49999);
 
    ci = TColor::GetColor("#ff0000");

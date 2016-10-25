@@ -1,12 +1,12 @@
 {
 //=========Macro generated from canvas: cnv/cnv
-//=========  (Tue Oct 25 12:18:45 2016) by ROOT version5.32/04
+//=========  (Tue Oct 25 15:48:01 2016) by ROOT version5.32/04
    TCanvas *cnv = new TCanvas("cnv", "cnv",1,1,904,904);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
    cnv->SetHighLightColor(2);
-   cnv->Range(-10.625,-0.02925,51.875,0.19575);
+   cnv->Range(-10.625,-0.01859249,51.875,0.1244266);
    cnv->SetFillColor(0);
    cnv->SetBorderMode(0);
    cnv->SetBorderSize(2);
@@ -22,7 +22,7 @@
    cnv->SetFrameBorderMode(0);
    
    TH1F *h_gammaD_cT_dummy = new TH1F("h_gammaD_cT_dummy","h_gammaD_cT_dummy",5,0,50);
-   h_gammaD_cT_dummy->SetMaximum(0.18);
+   h_gammaD_cT_dummy->SetMaximum(0.1144153);
    h_gammaD_cT_dummy->SetLineStyle(0);
    h_gammaD_cT_dummy->SetMarkerStyle(20);
    h_gammaD_cT_dummy->GetXaxis()->SetTitle("c#tau of #gamma_{D} [mm]");
@@ -44,7 +44,12 @@
    h_gammaD_cT_dummy->Draw("");
    
    TH1F *h_gammaD_cT = new TH1F("h_gammaD_cT","h_gammaD_cT",5,0,50);
-   h_gammaD_cT->SetBinContent(1,0.1);
+   h_gammaD_cT->SetBinContent(1,0.06356405);
+   h_gammaD_cT->SetBinContent(2,0.02342915);
+   h_gammaD_cT->SetBinContent(3,0.008674554);
+   h_gammaD_cT->SetBinContent(4,0.003179461);
+   h_gammaD_cT->SetBinContent(5,0.001152781);
+   h_gammaD_cT->SetBinContent(6,0.0006775736);
    h_gammaD_cT->SetEntries(99998);
 
    Int_t ci;   // for color index setting
