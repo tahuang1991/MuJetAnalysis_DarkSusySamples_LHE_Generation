@@ -1,12 +1,12 @@
 {
 //=========Macro generated from canvas: cnv/cnv
-//=========  (Tue Oct 25 15:38:29 2016) by ROOT version5.32/04
+//=========  (Tue Oct 25 16:11:53 2016) by ROOT version5.32/04
    TCanvas *cnv = new TCanvas("cnv", "cnv",1,1,904,904);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
    cnv->SetHighLightColor(2);
-   cnv->Range(-106.25,-0.002925,518.75,0.019575);
+   cnv->Range(-106.25,-0.02925,518.75,0.19575);
    cnv->SetFillColor(0);
    cnv->SetBorderMode(0);
    cnv->SetBorderSize(2);
@@ -21,8 +21,8 @@
    cnv->SetFrameFillStyle(0);
    cnv->SetFrameBorderMode(0);
    
-   TH1F *h_gammaD_cT_lab_dummy = new TH1F("h_gammaD_cT_lab_dummy","h_gammaD_cT_lab_dummy",5,0,500);
-   h_gammaD_cT_lab_dummy->SetMaximum(0.018);
+   TH1F *h_gammaD_cT_lab_dummy = new TH1F("h_gammaD_cT_lab_dummy","h_gammaD_cT_lab_dummy",50,0,500);
+   h_gammaD_cT_lab_dummy->SetMaximum(0.18);
    h_gammaD_cT_lab_dummy->SetLineStyle(0);
    h_gammaD_cT_lab_dummy->SetMarkerStyle(20);
    h_gammaD_cT_lab_dummy->GetXaxis()->SetTitle("L of #gamma_{D} [mm]");
@@ -31,7 +31,7 @@
    h_gammaD_cT_lab_dummy->GetXaxis()->SetTitleSize(0.06);
    h_gammaD_cT_lab_dummy->GetXaxis()->SetTitleOffset(0.95);
    h_gammaD_cT_lab_dummy->GetXaxis()->SetTitleFont(42);
-   h_gammaD_cT_lab_dummy->GetYaxis()->SetTitle("Normalized Fraction of Events / 100.0 mm");
+   h_gammaD_cT_lab_dummy->GetYaxis()->SetTitle("Normalized Fraction of Events / 10.0 mm");
    h_gammaD_cT_lab_dummy->GetYaxis()->SetLabelFont(42);
    h_gammaD_cT_lab_dummy->GetYaxis()->SetLabelOffset(0.007);
    h_gammaD_cT_lab_dummy->GetYaxis()->SetTitleSize(0.05);
@@ -43,8 +43,8 @@
    h_gammaD_cT_lab_dummy->GetZaxis()->SetTitleFont(42);
    h_gammaD_cT_lab_dummy->Draw("");
    
-   TH1F *h_gammaD_cT_lab = new TH1F("h_gammaD_cT_lab","h_gammaD_cT_lab",5,0,500);
-   h_gammaD_cT_lab->SetBinContent(1,0.01);
+   TH1F *h_gammaD_cT_lab = new TH1F("h_gammaD_cT_lab","h_gammaD_cT_lab",50,0,500);
+   h_gammaD_cT_lab->SetBinContent(1,0.1);
    h_gammaD_cT_lab->SetEntries(99998);
 
    Int_t ci;   // for color index setting
